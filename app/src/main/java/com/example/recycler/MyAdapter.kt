@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MyAdapter(): RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
-    private var title= arrayOf("picture 1","picture 2","picture 3","picture 4","picture 5")
+    private var title= arrayOf("Wake Up, be Awesome and always believe in yourself","In order to bloom you must grow","The best is yet to come","Life is like riding a bicycle,To keep your balance,you must keep moving","Wake Up, be Awesome and always believe in yourself")
     private var Image= intArrayOf(R.drawable.pic1,R.drawable.pic2,R.drawable.pic3,R.drawable.pic4,R.drawable.pic1)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
